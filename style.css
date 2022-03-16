@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.navlogo {
+    display: inline-block;
+    left: 2%;
+    height: 110px;
+    padding-top: 10px;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #000000;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#navbar a {
+    display: block;
+    border-right: 1px solid #ffffff;
+    text-decoration: none;
+}
+
+.homemenu {
+    color: #ffffff;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #000000;
+}
+
+.homemenu:hover {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #1EBF14;
+    font-weight: bold;
+}
+
+.homemenus {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #1EBF14;
+}
+
+.aboutmenu {
+    color: #ffffff;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #000000;
+}
+
+.aboutmenu:hover {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #FF576C;
+    font-weight: bold;
+}
+
+.aboutmenus {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #FF576C;
+}
+
+.culvertmenu {
+    color: #ffffff;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #000000;
+}
+
+.culvertmenu:hover {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #F5B82A;
+    font-weight: bold;
+}
+
+.culvertmenus {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #F5B82A;
+}
+
+.dronemenu {
+    color: #ffffff;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #000000;
+}
+
+.dronemenu:hover {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #F1842F;
+    font-weight: bold;
+}
+
+.dronemenus {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #F1842F;
+}
+
+.contactmenu {
+    color: #ffffff;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #000000;
+}
+
+.contactmenu:hover {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #43B0F9;
+    font-weight: bold;
+}
+
+.contactmenus {
+    color: #000000;
+    font-size: 30px;
+    display: block;
+    padding: 40px;
+    background-color: #43B0F9;
+}
+
+#video {
+    text-align: center;
+    object-fit: fill;
+    width: 100%;
+    background-color: black;
+}
+
+#hometext {
+    text-align: center;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+}
+
+.char50 {
+    display: inline-block;
+    text-align: center;
+    max-width: 70ch;
+    padding: 0% 10% 0% 10%;
+}
+
+#Aboutus {
+    background-image: url('MMsplash.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#culvertbk {
+    background-image: url('culverttitle.png');
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#dronebk {
+    background-image: url('Drone.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tgreen {
+    color: #1EBF14;
+}
+.tred {
+    color: #FF576C;
+}
+.tyellow {
+    color: #F5B82A;
+}
+.torange {
+    color: #F1842F;
+}
+.tblue {
+    color: #43B0F9;
+}
+
+.breakline {
+    width: 50%;
+    margin: auto;
+    border-top: 1px dashed rgb(255, 255, 255);
+}
+
+.orbreakline {
+    width: 50%;
+    margin: auto;
+    border-top: 2px dashed #F1842F;
+}
+
+.grbreakline {
+    width: 50%;
+    margin: auto;
+    border-top: 2px dashed #1EBF14;
+}
+
+.blbreakline {
+    width: 50%;
+    margin: auto;
+    border-top: 2px dashed #43B0F9;
+}
+
+.ylbreakline {
+    width: 50%;
+    margin: auto;
+    border-top: 2px dashed #F5B82A;
+}
+
+.rdbreakline {
+    width: 50%;
+    margin: auto;
+    border-top: 2px dashed #FF576C;
+}
+
+#centerbox {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin: auto;
+    background-color: #ffffffe0;
+    /* border: 0.5px solid #000000; */
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+}
+#Projects {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin: auto;
+    /* background-color: #ffffffe0; */
+    /* border: 0.5px solid #000000; */
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+#blkbk {
+    background-color: #000000;
+}
+.blkbk {
+    background-color: #000000;
+}
+
+.hometitle {
+    font-size: 60px;
+}
+
+/* .titlename {
+    font-size: 60px;
+} */
+
+.video-container {
+    position: relative;
+    padding-bottom: 40%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; 
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.projectimg {
+    width: 100%;
+}
+
+.imgoverlay:hover .overlay {
+    opacity: 1;}
+
+.container {
+    position: relative;
+    width: 60%;
+}
+
+  
+.image {
+    opacity: 1;
+    display: block;
+    min-width: 200px;
+    width:auto;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+  
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.culverttext {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff;
+    color: #F5B82A;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.dronetext {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff;
+    color: #F1842F;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.culverttext:hover {
+    background-color: #F5B82A;
+    color: #ffffff;
+}
+
+.dronetext:hover {
+    background-color: #F1842F;
+    color: #ffffff;
+}
+
+#lineupprojects {
+    display: inline-flex;
+}
+
+.img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#gallery {
+    display: inline-flex;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+  
+.dronerow {
+    background-color: #00000077;
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.dronecolumn { 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+.dronecolumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.dronewidth {
+    width: 100%;
+}
+  
+@media screen and (max-width: 800px) {
+    .dronecolumn {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .dronecolumn {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+.contact {
+    text-decoration: none;
+    font-size: 40px;
+    color: #43B0F9;
+    font-weight: bold;
+}
+
+.icon {
+    height: 40px;
+}
+
+.contact:hover {
+    text-decoration: underline;
+    font-size: 40px;
+    color: #FF576C;
+    font-weight: bold;
+}
